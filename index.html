@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="https://use.fontawesome.com/576f297d33.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>Blog de Música</title>
+</head>
+<body class="fondo">
+ <!--Esta sección tentra un contenedor de 900px centrado que flotara sobre el fondo-->
+  <div class="container">
+<!--Esta seccion tendra el encabezado, el logo y redes sociales-->
+   <header>
+    <div class="row banner">
+      <div class="jumbotron">
+       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+         <div class="row">
+          <img class="logo-img" src="img/logo.png"/>
+         </div>
+       </div>
+       <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-right">
+           <a class="btn btn-primary" href="#" role="button"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+           <a class="btn btn-primary" href="#" role="button"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+           <a class="btn btn-primary" href="#" role="button"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+           <a class="btn btn-primary" href="#" role="button"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+       </div>
+      </div>
+    </div>
+   </header>
+<!--Esta seccion tendra la barra de acccesos a otras paginas-->
+<nav class="navbar  navbar-light" style="background-color:#B39DDB;border-radius:3px;">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Grupos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Artistas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Top 10</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Letras</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Acordes</a>
+      </li>
+    </ul>
+</nav>
+
+
+
+
+<!--Esta seccion tendra el cuerpo de la pagina y sus contenidos-->
+   <div class="row contenido">
+     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 articulos text-center">
+<!--Esta seccion tendra el primer articulo mas una imagen-->
+     <div class="row">
+         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 articulo1 text-justify">
+               <h2>Alex Zurdo Salmista</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imagen1 text-center">
+              <img class="img-responsive" src="img/zurdo.jpg"/>
+          </div>
+     </div>
+<!--Esta seccion tendra el area para comentarios-->
+     <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+            <form class="form-horizontal text-left" role="form">
+              <div class="form-group">
+                 <label for="comentario" class="label-comentario"><i class="fa fa-user" aria-hidden="true"></i></label>
+                    <textarea class=" coment" placeholder="Comentario"></textarea>
+                  </div>
+            </form>
+        </div>
+      </div>
+<!--Esta seccion tendra el segundo articulo mas una imagen-->
+       <div class="row">
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 articulo2 text-center">
+             <img class="img-responsive" src="img/adrian.jpg"/>
+         </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 imagen2 text-justify">
+            <h2>Jesus Adrian Salmista</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+       </div>
+ <!--Esta seccion tendra el area para comentarios-->
+            <div class="row">
+               <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                   <form class="form-horizontal text-left" role="form">
+                     <div class="form-group">
+                        <label for="comentario" class="label-comentario"><i class="fa fa-user" aria-hidden="true"></i></label>
+                           <textarea class=" coment" placeholder="Comentario"></textarea>
+                         </div>
+                   </form>
+               </div>
+             </div>
+     </div>
+ <!--Esta seccion tendra el area de busqueda, mas contenido a buscar-->
+     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 buscador text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="input-group">
+            <span class="input-group-btn">
+               <button class="btn btn-secondary" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </span>
+             <input type="text" class="form-control" placeholder="Buscar por..." aria-label="Buscar por...">
+         </div>
+        </div>
+     </div>
+     <br />
+<!--Esta seccion tendra el area de contenido a buscar-->
+     <div class="row seleccionar-busqueda">
+       <div class="col-lg-12 col-md-12">
+         <div class="list-group">
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Los hermanos chacon</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Los hermanos martinez</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Alex Zurdo</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Jesus Adrian Romero</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Marcos Vidal</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Talles Roberto</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Roberto Orellana</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Miel San Marcos</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Dani Berrios</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Daniel Calveti</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Josue del Cid</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Marcos Witt</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Alex Campos</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Marcela Gandara</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Pescao Vivo</a>
+           <a href="#" class="list-group-item list-group-item-action list-group-item-light">Many Montes</a>
+         </div>
+       </div>
+     </div>
+
+    </div>
+
+      </div>
+    </div>
+
+</body>
+</html>
